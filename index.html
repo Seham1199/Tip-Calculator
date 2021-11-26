@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/all.min.css"/>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Tip Calculator</title>
+    </head>
+
+    <body>
+      <div class="container w-25 mt-5  bg-light  p-0">
+          <div id="calculator">
+        <h1 class="mb-3 text-light py-2 text-center">TIP CALCULATOR</h1>
+
+        <form class="">
+        <p>How much was your Bill?</p>
+        <p>$<input id="billAmount" type="text" placeholder="Enter Bill Amount" class="ml-1 w-75 form-control d-inline" /></p>
+
+        <p>How was service?</p>
+        <select class="ml-5  w-75 mb-2 p-3 " id="service">
+            <option selected disabled value="0">select level of service</option>
+            <option value="0.3">Outstanding - 30%</option>
+            <option value="0.2">Good - 20%</option>
+            <option value="0.15">It is okk - 15%</option>
+            <option value="0.1">Bad - 10%</option>
+            <option value="0.05">Terrbile - 5%</option>
+        </select>
+
+     <p>How many people sharing the Bill?</p>
+     <p><input type="text" placeholder="Enter number of people" id="peopleAmount" class="w-75 form-control d-inline-block mr-1"/>people</p> 
+    </form>
+ 
+   <div class="btn_calc d-flex justify-content-center "><button id="btnClick" type="button" class="btn text-light p-2  w-50 my-4">CALCULATE!</button></div>  
+
+    </div>
+
+    <div id="totaltip" class="text-center font-weight-bolder ">
+        <sup class="">$</sup><span id="tip">0.00</span>
+        <div id="each" class="d-block font-weight-bolder ml-2 pb-3">each</div>
+    </div>
+</div>
+
+
+
+
+
+        
+        <script src="js/main.js"></script> 
+       </body>
+
+</html>

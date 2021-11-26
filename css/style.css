@@ -1,0 +1,43 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+body
+{
+    background: #8E0E00;
+}
+.container
+{
+    border-radius: 20px;
+}
+h1
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: black;
+    font-size: 22PX;
+}
+p
+{
+    padding-left: 20px;
+}
+#service
+{
+    font-size: 20px;
+   
+}
+.btn_calc button
+{
+    background: #cf3b3b;
+    box-shadow:1px -1px rgb(48, 46, 46,0.7);
+}
+#totaltip:before
+{
+    content: "TIP AMOUNT";
+    display: block;
+    margin-bottom: 6px;
+}
+#totaltip sup
+{
+    top: -10px;
+}
